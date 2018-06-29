@@ -11,8 +11,8 @@ HDP-UTILS	http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7/
 ```
 docker network create --driver bridge my-net
 ```
-**2、所有容器启动方式必须按照如下方式**
+**2、所有容器启动方式必须按照如下方式**<br/>
 开启privileged,映射本地路径，开启systemd,使用网络my-net,使DNS生效。（单机方案，多节点根据情况修改）
 ```
-   docker run --name test --network=my-net --privileged=true -d -v /sys/fs/cgroup:/sys/fs/cgroup:ro ambari:agent
+docker run --name test --network=my-net --privileged=true -d -v /sys/fs/cgroup:/sys/fs/cgroup:ro ambari:agent
 ```
