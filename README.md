@@ -4,7 +4,9 @@
 https://github.com/sequenceiq/docker-ambari
 # 资源下载：
 Ambari	http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/2.5.1.0/ambari-2.5.1.0-centos7.tar.gz
+<br/>
 HDP	http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.6.1.0/HDP-2.6.1.0-centos7-rpm.tar.gz
+<br/>
 HDP-UTILS	http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7/HDP-UTILS-1.1.0.21-centos7.tar.gz
 # 要点：
 **1、自建network ，启用dockerDNS**
